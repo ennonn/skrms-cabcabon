@@ -1,6 +1,55 @@
-# SKRMS (Sangguniang Kabataan Records Management System)
+# SKRMS-CABCABON
 
-A modern web application for managing Sangguniang Kabataan records, proposals, and youth profiles. Built with Laravel and React/TypeScript.
+*Empowering Youth Through Seamless Engagement and Management*
+
+[![Last Commit](https://img.shields.io/github/last-commit/ennonn/skrms-cabcabon?color=blue)]()
+[![Languages](https://img.shields.io/github/languages/count/ennonn/skrms-cabcabon)]()
+[![Top Language](https://img.shields.io/github/languages/top/ennonn/skrms-cabcabon)]()
+
+## Built With
+
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Inertia.js](https://img.shields.io/badge/Inertia.js-9561E2?style=for-the-badge&logo=inertia&logoColor=white)](https://inertiajs.com/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-065F46?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/Prettier-F7BA3E?style=for-the-badge&logo=prettier&logoColor=white)](https://prettier.io/)
+[![PHPUnit](https://img.shields.io/badge/PHPUnit-11A9F0?style=for-the-badge&logo=phpunit&logoColor=white)](https://phpunit.de/)
+[![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)](https://getcomposer.org/)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
+
+## Table of Contents
+
+*   [Overview](#overview)
+*   [Features](#features)
+*   [Tech Stack](#tech-stack)
+*   [Prerequisites](#prerequisites)
+*   [Installation](#installation)
+*   [Development](#development)
+*   [Project Structure](#project-structure)
+*   [Contributing](#contributing)
+*   [License](#license)
+*   [Support](#support)
+
+## Overview
+
+SKRMS-CABCABON is a powerful web application designed to streamline the management of Sangguniang Kabataan records, proposals, and youth profiles. It aims to empower youth engagement and simplify administrative tasks through a seamless digital platform.
+
+Why SKRMS-CABCABON?
+
+This project enhances productivity and data management while providing a user-friendly experience. Key aspects include:
+
+*   ⚡ **Modern Tech Stack:** Built with Vite, React, TypeScript, and Laravel for a fast, efficient, and robust development and user experience.
+*   🌍 **Comprehensive Record Management:** Efficiently handle youth profiles, including personal, family, and engagement data.
+*   ✍️ **Streamlined Proposal Process:** Facilitate proposal creation, submission, tracking, and approval with document management.
+*   📈 **Insightful Analytics:** Gain valuable insights through interactive charts, metrics dashboards, and data export capabilities.
+*   🛠️ **Flexible System Settings:** Easily manage users, configure system settings, monitor activity, and integrate with external services like Zapier.
+*   🔒 **Secure and Role-Based Access:** Ensure data security and proper access levels through robust authentication and authorization.
 
 ## Features
 
@@ -145,18 +194,18 @@ A modern web application for managing Sangguniang Kabataan records, proposals, a
 ```
 ├── app/                    # Laravel application code
 │   ├── Http/              # Controllers, Middleware, Requests
-│   │   ├── models/       # Eloquent models
-│   │   ├── services/     # Business logic services
-│   │   └── notifications/ # Email notifications
-│   ├── resources/
-│   │   ├── js/           # React/TypeScript components
-│   │   │   ├── components/ # Reusable UI components
-│   │   │   ├── pages/    # Page components
-│   │   │   └── layouts/  # Layout components
-│   │   └── views/        # Blade templates
-│   ├── routes/           # Application routes
-│   └── database/         # Migrations and seeders
-└── tests/                # PHPUnit tests
+│   ├── Models/            # Eloquent models
+│   ├── Services/          # Business logic services
+│   └── Notifications/     # Email notifications
+├── resources/
+│   ├── js/               # React/TypeScript components
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/       # Page components
+│   │   └── layouts/     # Layout components
+│   └── views/           # Blade templates
+├── routes/               # Application routes
+├── database/            # Migrations and seeders
+└── tests/              # PHPUnit tests
 ```
 
 ## Contributing
