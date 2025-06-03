@@ -1,0 +1,92 @@
+# Dependencies
+/node_modules
+/vendor
+/auth.json
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+Homestead.json
+Homestead.yaml
+
+# Build and compiled assets
+/bootstrap/ssr
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+
+# IDE and editor files
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Debug and error logs
+npm-debug.log
+yarn-error.log
+*.log
+/storage/logs/*.log
+
+# Project specific temporary/development folders
+/zzz_a
+/zzza
+/zzz_b
+/zzz_c
+/zzz_d
+/zzz_final
+/zzz_zapier
+/zzz_assets
+/zzz_final_diagram
+/zapier_raw
+/zzz_deploy_guide
+/zzz_next_level
+/zzz_files
+
+# Testing and coverage
+/coverage
+.phpunit.cache
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache files
+.cache/
+*.cache
+
+# Additional patterns
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+.next/
+out/
+dist/
+build/
+coverage/
+.vercel
+.turbo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
